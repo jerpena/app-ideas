@@ -1,0 +1,9 @@
+.container {
+  top: 30%;
+}
+
+#result {
+  border: 1px solid black;
+  width: 125px;
+  height: 20px;
+}
