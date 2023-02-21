@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel='stylesheet' href='style.css'>
+  <title>Border-radius Previewer</title>
+</head>
+
+<body>
+  <div class="container">
+    <input id='borderTopLeftRadius' class='radius-input' type="text">
+    <div class="box">
+      <pre id='css-output'>.box {
+  border: 2px solid purple;
+  border-top-left-radius: <span class='bold' id='tl'>8</span>px;
+  border-top-right-radius: <span class='bold' id='tr'>8</span>px;
+  border-bottom-left-radius: <span class='bold' id='bl'>8</span>px;
+  border-bottom-right-radius: <span class='bold' id='br'>8</span>px;
+}</pre>
+    </div>
+    <input id='borderTopRightRadius' class='radius-input' type="text">
+    <input id='borderBottomLeftRadius' class='radius-input' type="text">
+    <input id='borderBottomRightRadius' class='radius-input' type="text">
+  </div>
+  <div class="footer">
+    <button type='button' id='copy-btn'>Copy to clipboard</button>
+  </div>
+  <script src='app.js'></script>
+</body>
+
+</html>
